@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "Copy With Context",
+  "version": "1.0",
+
+  "description": "Copies selected text into the clipboard with page title and URL appended. Click the button or Alt+Shift+C to copy.",
+  "author": "Joakim Almgren",
+  "homepage_url": "https://github.com/joakimoa/copywithcontext",
+  "icons": {
+    "48": "icons/copy48default.png",
+    "96": "icons/copy96default.png"
+  },
+
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/copy32dark.png",
+    "default_title": "Copy selected text with page title and URL appended",
+    "theme_icons": [{
+      "light": "icons/copy32light.png",
+      "dark": "icons/copy32dark.png",
+      "size": 32
+    },{
+      "light": "icons/copy16light.png",
+      "dark": "icons/copy16dark.png",
+      "size": 16
+    }]
+  },
+
+  "commands":{
+    "_execute_browser_action": {
+        "suggested_key": {
+            "default": "Alt+Shift+C"
+        }
+    }
+  }
+}
