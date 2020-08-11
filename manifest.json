@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Copy With Context",
-  "version": "1.0",
+  "version": "2.0",
 
   "description": "Copies selected text into the clipboard with page title and URL appended. Click the button or Alt+Shift+C to copy.",
   "author": "Joakim Almgren",
