@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<style>
+		label {
+			font-weight: bold;
+			font-size: 150%;
+		}
+
+		body {
+			padding: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<form>
+		<label>Addon formatting</label>
+		</br>
+		<p>You can modify the order, add quotation marks etc. to customize the copied text.</p>
+		<p>The keys that will be replaced with the actual content:
+		<p>{CWC_TEXT} = selected text</p>
+		<p>{CWC_TITLE} = page title</p>
+		<p>{CWC_URL} = page URL</p>
+		<textarea id="formatting" rows="5" cols="50"></textarea>
+		</br>
+		<button type="submit">Save</button>
+	</form>
+	<script src="options.js"></script>
+</body>
+
+</html>

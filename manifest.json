@@ -13,8 +13,21 @@
 
   "permissions": [
     "activeTab",
-    "clipboardWrite"
+    "clipboardWrite",
+    "storage"
   ],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "copywithcontext@joakimoa",
+      "strict_min_version": "70.0"
+    }
+  },
+
+  "options_ui": {
+    "page": "options.html",
+    "browser_style": true
+  },
 
   "background": {
     "scripts": ["background.js"]
