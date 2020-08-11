@@ -22,7 +22,7 @@
 
   "browser_action": {
     "default_icon": "icons/copy32dark.png",
-    "default_title": "Copy selected text with page title and URL appended",
+    "default_title": "Copy selected text with page title and URL appended (Alt+Shift+C)",
     "theme_icons": [{
       "light": "icons/copy32light.png",
       "dark": "icons/copy32dark.png",
