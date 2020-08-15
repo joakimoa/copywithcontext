@@ -19,6 +19,7 @@
 				formattedText = formattedText.replace('{CWC_TEXT}', selectedText);
 				formattedText = formattedText.replace('{CWC_TITLE}', title);
 				formattedText = formattedText.replace('{CWC_URL}', url);
+				formattedText = formattedText.replace('{CWC_DATE}', Date());
 
 				navigator.clipboard.writeText(formattedText)
 					.catch(error => console.error(`Failed to write to clipboard: ${error}`));
